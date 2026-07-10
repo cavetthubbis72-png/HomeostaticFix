@@ -1,23 +1,28 @@
 plugins {
-    id 'java'
-    id 'net.neoforged.gradle.userdev' version '7.0.80'
+    id 'java-library'
+    id 'net.neoforged.gradle.userdev' version '7.0.165'
 }
+
+version = '1.0.0'
+group = 'com.yourname'
 
 base {
-    archivesName = "HomeostaticFix"
+    archivesName = 'HomeostaticFix'
 }
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
 repositories {
     mavenCentral()
     maven { url = 'https://maven.neoforged.net/releases' }
+    flatDir {
+        dirs 'libs'
+    }
 }
 
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
-}
-
-tasks.withType(JavaCompile).configureEach {
-    options.encoding = 'UTF-8'
+    compileOnly files('libs/homeostatic.jar')
+    compileOnly files('libs/serene-seasons.jar')
+    annotationProcessor 'org.spongepowered:mixin:0.8.7:processor'
 }

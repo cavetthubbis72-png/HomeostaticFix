@@ -7,7 +7,8 @@ import org.apache.logging.log4j.Logger;
 @Mod("homeostaticfix")
 public class HomeostaticSeasonFix {
     public static final Logger LOGGER = LogManager.getLogger("HomeostaticFix");
+
     public HomeostaticSeasonFix() {
-        LOGGER.info("Homeostatic Season Fix loaded successfully!");
+        LOGGER.info("Homeostatic Fix loaded - patching Serene Seasons null safety");
     }
 }
