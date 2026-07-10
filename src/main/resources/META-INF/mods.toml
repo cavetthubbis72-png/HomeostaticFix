@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="homeostaticfix"
+version="1.0.0"
+displayName="Homeostatic Season Fix"
+description="Fix null SubSeason crash for Homeostatic when entering dimensions."
+authors="YourName"
+[[dependencies.homeostaticfix]]
+modId="neoforge"
+mandatory=true
+versionRange="[21,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.homeostaticfix]]
+modId="homeostatic"
+mandatory=true
+versionRange="[2.12,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.homeostaticfix]]
+modId="sereneseasons"
+mandatory=true
+versionRange="[10.1,)"
+ordering="AFTER"
+side="BOTH"
