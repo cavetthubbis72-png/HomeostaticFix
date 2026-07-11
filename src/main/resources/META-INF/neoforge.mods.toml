@@ -7,7 +7,7 @@ modId = "homeostaticfix"
 version = "1.0.0"
 displayName = "Homeostatic Season Fix"
 description = "Fixes NullPointerException when Homeostatic reads Serene Seasons season data before it is initialized."
-authors = "YourName"
+authors = "cavetthubbis72"
 
 [[dependencies.homeostaticfix]]
     modId = "neoforge"
