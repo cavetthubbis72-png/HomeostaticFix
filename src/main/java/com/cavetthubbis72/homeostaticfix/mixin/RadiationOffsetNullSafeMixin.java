@@ -1,4 +1,4 @@
-package com.yourname.homeostaticfix.mixin;
+package com.cavetthubbis72.homeostaticfix.mixin;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

@@ -1,4 +1,4 @@
-package com.yourname.homeostaticfix;
+package com.cavetthubbis72.homeostaticfix;
 
 import net.neoforged.fml.common.Mod;
 import org.apache.logging.log4j.LogManager;
