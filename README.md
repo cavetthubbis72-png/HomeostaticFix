@@ -1,4 +1,4 @@
-[中文文档](./README_zh.md) | English
+[中文](./README_zh-CN.md) | English
 # HomeostaticFix
 Homeostatic Cross-Dimension Crash Fix
 
