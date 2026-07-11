@@ -1,3 +1,4 @@
+中文 | [English](./README.md)
 ## Homeostatic 跨维度崩溃修复补丁
 
 ### 概述
